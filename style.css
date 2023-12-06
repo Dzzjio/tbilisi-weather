@@ -1,0 +1,278 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-sanet/css/alk-sanet.min.css");
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   color: white;
+   font-family: 'ALK Sanet';
+}
+
+body {
+   background-image: url(img/clouds_night2.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.header{
+   height: 3.15rem;
+   background-color: rgba(98, 117, 167, 0.4);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 0 150px;
+}
+
+.heaader div {
+   display: flex;
+}
+
+ul {
+   display: flex;
+   list-style: none;
+}
+
+ul li {
+   padding-left: 15px;
+   font-size: 15px;
+}
+
+ul a {
+   text-decoration: none;
+}
+
+.header-logo {
+   width: 90px;
+}
+
+#h-1 {
+   font-size: 40px;
+}
+
+.container {
+   margin: 0 auto;
+   max-width: 1285px;
+   width: 75%;
+   position: relative; 
+   top: 0;
+   height: auto;
+}
+
+.small {
+   width: 100%;
+}
+
+hr {
+   margin: 15px;
+
+   border: .1px solid rgba(30, 29, 29, 0.5);
+}
+
+/* left side */
+
+.left {
+   position: absolute;
+   left: 2rem;
+
+   width: 25%;
+   background-color:rgba(98, 117, 167, 0.4);
+}
+
+
+
+.first-side {
+   margin: .5rem;
+   display: flex;
+   flex-direction: column;
+}
+
+.second-side {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+.third-side {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.third-side .btn {
+   margin-top: 20px;
+}
+
+#row-of-weathers {
+   max-width: 270px;
+
+}
+
+.el {
+   display: inline-block;
+}
+
+.small-img-5 {
+   width: 1.5rem;
+}
+
+
+.wind-section {
+   display: flex;
+   flex-direction: row;
+   height: 100px;
+}
+
+.wind-animation {
+   background-image: url(img/joxi.png);
+   background-repeat: no-repeat;
+   position: relative;
+   width: 95px;
+   margin-left: 10px;
+}
+
+.first, .last {
+   position: absolute;
+   width: 40px;
+   height: 40px;
+   animation: rotateForever 1s linear infinite; /* Adjust the duration as needed */
+}
+
+.first {
+   background-image: url(img/b1.png);
+   background-size: cover;
+   width: 60px;
+   height: 60px;
+   left: -9px;
+   top: -11px;
+}
+
+.last {
+   background-image: url(img/b2.png);
+   background-size: cover;
+   top: 10px;
+   left: 19px;
+}
+
+@keyframes rotateForever {
+   0% {
+      transform: rotate(0deg);
+   }
+   100% {
+      transform: rotate(359deg);
+   }
+}
+
+.wind-text p {
+   margin-top: 5px;
+   font-size: 14px;
+}
+
+.wind-text p:first-child {
+   margin-top: 5px;
+}
+
+.feels-like {
+   padding: 20px;
+   padding-bottom: 145px;
+   display: flex;
+   font-size: 12px;
+}
+
+#h-1 {
+   font-size: 3rem;
+}
+
+.h-2 {
+   letter-spacing: 2px;
+}
+
+#para {
+   padding: .5rem;
+   font-size: .8rem;
+   margin-top: 1rem;
+
+}
+
+.btn {
+   background-color: rgb(21, 170, 220);
+   padding: 9px 14px;
+   border: 1px solid rgb(130, 126, 126);
+   border-radius: 7px;
+   font-size: 13px;
+   margin-right: 5px;
+}
+
+
+
+/* righr side */
+
+.right {
+   right: 2rem;
+   top: 2rem;
+   position: absolute;
+   width: 70%;
+   background-color: white;
+   padding: 1rem;
+   border-radius: 6px;
+}
+
+.right-container-small {
+   background-color: rgba(98, 117, 167, 0.4);
+   position: absolute;
+   top: -2rem;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.right-container-big {
+   width: 80%;
+   border-radius: 10px;
+   padding: 5px;
+}
+
+#big-weather-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   margin-top: 15px;
+   padding: 10px;
+}
+
+#big-weather-container div{
+   flex: 1;
+   min-width: 16%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#big-weather-container div p{
+   color: black;
+}
+
+.small-img-weather {
+   width: 3.5rem;
+}
+
+.black-text {
+   color: black;
+}
+
+.gray-bg {
+   background-color: rgb(237, 237, 237);
+
+}
+
+.bold {
+   font-weight: bold;
+}
+
+.single-weather {
+   padding-bottom: 40px;
+}
+
+
+

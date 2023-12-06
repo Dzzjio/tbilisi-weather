@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ამინდები</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <header class="header">
+      <img src="img/header-logo.png" class="header-logo" alt="">
+      <div>
+         <ul>
+            <li><a href="#">ამინდის პროგნოზი</a></li>
+            <li><a href="#">სიახლეები</a></li>
+            <li><a href="#">ჯანმრთელობა</a></li>
+            <li><a href="#">რადიო</a></li>
+            <li><a href="#">სასარგებლო ინპორმაცია</a></li>
+            <li><a href="#">რეკლამა</a></li>
+         </ul>
+      </div>
+   </header>
+
+   <main class="container">
+      <div class="small left">
+         <div class="left-container">
+            <div class="first-side">
+               <h2 class="h-2">თბილისი</h2>
+               <p id="para">
+               </p>
+            </div>
+
+            <div class="second-side">
+               <img src="img/rain.png" alt="">
+               <h1 id="h-1"></h1>
+            </div> <hr>
+
+            <div class="third-side">
+               <h5>ამინდი საათების მიხედვით</h5>
+
+               <div id="row-of-weathers">
+                  
+               </div>
+
+               <button class="btn">იხილე სრულად</button>
+            </div> <hr>
+
+            <div class="wind-section">
+               <div class="wind-animation">
+                  <div class="first"></div>
+                  <div class="last"></div>
+               </div>
+
+               <div class="wind-text">
+                  <h2>ქარი და წნევა</h2>
+                  <p id="wind-speed"></p>
+                  <p id="preasure"></p>
+               </div>
+            </div> <hr>
+
+            <div class="feels-like">
+               <div class="feels-like-left">
+                  <p>ტემპერატურის მგრძნობელობა:</p>
+                  <p>ქარში მგრძნობელობა:</p>
+                  <p>ტენიანობა:</p>
+                  <p>ხილვადობა:</p>
+               </div>
+               <div class="feels-like-right">
+                  <p>19°</p>
+                  <p>19°</p>
+                  <p>WNW</p>
+                  <p>65%</p>
+               </div>
+            </div>
+         </div>
+         
+      </div>
+
+
+
+      <div class="small right">
+
+         <div class="right-container-small">
+            <button class="btn btn-row ">აირჩიეთ ქალაქი</button>
+            <div>
+               <button class="btn btn-row ">მოძებნეთ ქალაქი</button>
+               <button class="btn btn-row ">ქართული</button>
+               <button class="btn btn-row ">C</button>
+            </div>
+         </div>
+
+         <div class="right-container-big  gray-bg">
+
+            <h3 class="black-text">ამინდი საათების მიხედვით</h3>
+            <div id="big-weather-container">
+  
+            </div>
+         </div>
+      </div>
+
+   </main>
+
+
+
+
+   <script src="script.js"></script>
+</body>
+</html>
